@@ -29,5 +29,11 @@ while True:
     print("Password must contain a number.")
     valid=False
 
+  if valid==False:
+      print("\nPassword is valid!")
+      break
+  
   else:
     print("\nInvalid password. Try again.")
+
+  
